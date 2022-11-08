@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.view.psm.HireStaff">
+  <grid id="27dc6" binding="jPanel" layout-manager="GridLayoutManager" row-count="9" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="680" height="404"/>
+    </constraints>
+    <properties>
+      <background color="-3751182"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c3dba" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Recruitment Request"/>
+        </properties>
+      </component>
+      <vspacer id="9ae3a">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="7" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ef60" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Contract Type"/>
+        </properties>
+      </component>
+      <component id="f8583" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Requesting Department"/>
+        </properties>
+      </component>
+      <component id="8e6db" class="javax.swing.JRadioButton" binding="administrationRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Administration"/>
+        </properties>
+      </component>
+      <component id="fb204" class="javax.swing.JRadioButton" binding="servicesRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Services"/>
+        </properties>
+      </component>
+      <component id="fb605" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Years of Experience"/>
+        </properties>
+      </component>
+      <component id="14ce2" class="javax.swing.JTextField" binding="experience">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a4c63" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Job title"/>
+        </properties>
+      </component>
+      <component id="11032" class="javax.swing.JTextField" binding="jobTitleTxt">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4ab70" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Job description"/>
+        </properties>
+      </component>
+      <component id="a984e" class="javax.swing.JTextArea" binding="jobDescriptionTxt">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="7" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5e819" class="javax.swing.JRadioButton" binding="fullTimeRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Full Time"/>
+        </properties>
+      </component>
+      <component id="73aaa" class="javax.swing.JRadioButton" binding="financialRadioButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Financial"/>
+        </properties>
+      </component>
+      <component id="f3267" class="javax.swing.JRadioButton" binding="productionRadioButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Production"/>
+        </properties>
+      </component>
+      <component id="b2f01" class="javax.swing.JRadioButton" binding="partTimeRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Part Time"/>
+        </properties>
+      </component>
+      <component id="15f27" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="contractTypeRadio">
+      <member id="5e819"/>
+      <member id="b2f01"/>
+    </group>
+    <group name="departmentRadio">
+      <member id="8e6db"/>
+      <member id="fb204"/>
+      <member id="f3267"/>
+      <member id="73aaa"/>
+    </group>
+  </buttonGroups>
+</form>

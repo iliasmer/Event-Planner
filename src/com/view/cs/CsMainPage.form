@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.view.cs.CsMainPage">
+  <grid id="27dc6" binding="jPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="567" height="185"/>
+    </constraints>
+    <properties>
+      <background color="-3751182"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="8ced4" class="javax.swing.JButton" binding="createRequest">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Create Request"/>
+        </properties>
+      </component>
+      <component id="a250" class="javax.swing.JButton" binding="logOutButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <maximum-size width="80" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Log out"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

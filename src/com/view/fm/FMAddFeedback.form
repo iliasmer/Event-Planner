@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.view.fm.FMAddFeedback">
+  <grid id="27dc6" binding="jPanel" layout-manager="GridLayoutManager" row-count="11" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="826" height="470"/>
+    </constraints>
+    <properties>
+      <background color="-3751182"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9c682" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Request for Event Planning (for registered customers)"/>
+        </properties>
+      </component>
+      <vspacer id="4bc41">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="74200" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Record Number"/>
+        </properties>
+      </component>
+      <component id="513d6" class="javax.swing.JTextField" binding="recordNumber">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7cff8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Client Name"/>
+        </properties>
+      </component>
+      <component id="d6fd" class="javax.swing.JTextField" binding="name">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="379e5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Event Type"/>
+        </properties>
+      </component>
+      <component id="a1bc2" class="javax.swing.JTextField" binding="eventType">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8a26c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="From"/>
+        </properties>
+      </component>
+      <component id="74f0d" class="javax.swing.JTextField" binding="fromDate">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b99b2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="To"/>
+        </properties>
+      </component>
+      <component id="4e4ae" class="javax.swing.JTextField" binding="toDate">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bcba3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Expected Number of Attendees"/>
+        </properties>
+      </component>
+      <component id="78e64" class="javax.swing.JTextField" binding="numOfAttendees">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e60ba" class="javax.swing.JCheckBox" binding="decorationsCheckBox" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="Decorations"/>
+        </properties>
+      </component>
+      <component id="3a0fb" class="javax.swing.JCheckBox" binding="partiesCheckBox">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <selected value="false"/>
+          <text value="Parties"/>
+        </properties>
+      </component>
+      <component id="12c1c" class="javax.swing.JCheckBox" binding="foodCheckBox">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <text value="Breakfast, lunch, dinner"/>
+        </properties>
+      </component>
+      <component id="bd002" class="javax.swing.JCheckBox" binding="drinksCheckBox">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <selected value="false"/>
+          <text value="Soft / hot drinks"/>
+        </properties>
+      </component>
+      <component id="cab62" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Preferences"/>
+        </properties>
+      </component>
+      <component id="18153" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Expected Budget"/>
+        </properties>
+      </component>
+      <component id="14e56" class="javax.swing.JTextField" binding="expectedBudget">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="de3f1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Feedback"/>
+        </properties>
+      </component>
+      <component id="3cd94" class="javax.swing.JTextArea" binding="feedbackArea">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a8794" class="javax.swing.JButton" binding="sendBtn">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Send"/>
+        </properties>
+      </component>
+      <component id="de1cb" class="javax.swing.JCheckBox" binding="photosFilmingCheckBox">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <selected value="false"/>
+          <text value="Photos / filming"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
